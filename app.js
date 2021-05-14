@@ -12,11 +12,11 @@ app.get('/', (req, res) => {
 app.get('/about', (req, res) => {
   res.render('pages/about');
 });
-app.get('/detail/:id', (req, res) => {
-  res.render('pages/detail');
+app.get('/work', (req, res) => {
+  res.render('pages/work');
 });
-app.get('/collections', (req, res) => {
-  res.render('pages/collections');
+app.get('/contact', (req, res) => {
+  res.render('pages/contact');
 });
 
 app.listen(port, () => {
